@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/include
+includedir=${exec_prefix}/lib
+
+Name: liburi
+Description: Uriparser wrapper.
+URL: https://github.com/nevali/liburi
+Version: 1
+Libs: -L${libdir} -luri
+Cflags: -I${includedir}

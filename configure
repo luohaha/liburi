@@ -1,0 +1,5 @@
+PKG=$(dpkg-query -W --showformat='${Status}\n' liburiparser-dev| grep "install ok installed")
+if [ "" == "$PKG" ]; then
+  sudo apt-get --force-yes --yes install liburiparser-dev
+fi
+echo Done
