@@ -5,10 +5,33 @@ This is without URIPARSER.
 It installs it using apt-get.
 
 # Requirements
-    apt-get install pkg-config
-    
+Linux:
+
+```
+apt-get install pkg-config
+```
+
+OS X:
+
+```
+brew install pkg-config
+```    
+
 # Install
-    git clone https://github.com/mitghi/liburi/; cd ./liburi
-    ./configure
-    make
-    make install
+Linux:
+
+```
+git clone https://github.com/mitghi/liburi/; cd ./liburi
+./configure
+make
+make install
+```
+
+OS X:
+
+```
+git clone https://github.com/mitghi/liburi/; cd ./liburi
+./configure-osx
+make
+make install
+```
